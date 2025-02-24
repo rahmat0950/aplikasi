@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Manajemen Keuangan</title>
+</head>
+<body>
+    <h1>Aplikasi Manajemen Keuangan</h1>
+    <label for="pengeluaranBulanan">Pengeluaran Bulanan:</label>
+    <input type="number" id="pengeluaranBulanan" /><br><br>
+    <label for="pengeluaranTahunan">Pengeluaran Tahunan:</label>
+    <input type="number" id="pengeluaranTahunan" /><br><br>
+    <button onclick="hitungPengeluaran()">Hitung Pengeluaran</button>
+
+    <h2>Hasil:</h2>
+    <p id="hasilTotalPengeluaran"></p>
+    <p id="hasilPerbandinganPengeluaran"></p>
+    <p id="hasilRataRataPengeluaran"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
